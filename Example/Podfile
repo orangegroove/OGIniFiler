@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'OGIniFiler', :exclusive => true do
+  pod "OGIniFiler", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "OGIniFiler", :path => "../"
+
+  
+end
