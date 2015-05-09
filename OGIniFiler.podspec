@@ -10,29 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "OGIniFiler"
   s.version          = "0.1.0"
-  s.summary          = "A short description of OGIniFiler."
+  s.summary          = "Ini file serialization."
   s.description      = <<-DESC
-                       An optional longer description of OGIniFiler
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Serializes and deserializes ini files.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/OGIniFiler"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/orangegroove/OGIniFiler"
   s.license          = 'MIT'
-  s.author           = { "Jesper" => "jesper.skrufve@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/OGIniFiler.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
-  s.source_files = 'Pod/Classes'
-  s.resource_bundles = {
-    'OGIniFiler' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.author           = { "Jesper" => "jesper@orangegroove.net" }
+  s.source           = { :git => "https://github.com/orangegroove/OGIniFiler.git", :tag => s.version.to_s }
+  s.platform         = :ios, '7.0'
+  s.requires_arc     = true
+  s.source_files     = 'Pod/Classes'
+  s.frameworks       = 'Foundation'
 end

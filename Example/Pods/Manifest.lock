@@ -1,0 +1,14 @@
+PODS:
+  - OGIniFiler (0.1.0)
+
+DEPENDENCIES:
+  - OGIniFiler (from `../`)
+
+EXTERNAL SOURCES:
+  OGIniFiler:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OGIniFiler: e21a67fe5fefa73afc27e95090a25bd413f97963
+
+COCOAPODS: 0.34.4
