@@ -195,7 +195,7 @@ NSString* const kOGIniFileSerializationErrorDomain = @"OGIniFileSerializationErr
     
     for (id key in dictionary.allKeys)
     {
-        if (![key isKindOfClass:NSString.class] || ![key isKindOfClass:NSNull.class])
+        if (![key isKindOfClass:NSString.class] && ![key isKindOfClass:NSNull.class])
         {
             valid = NO;
             
